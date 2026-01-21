@@ -1,0 +1,7 @@
+message,hostname,username,source_ip
+Failed password for root from 10.0.0.5 port 55221 ssh2,linux-server-01,root,10.0.0.5
+sudo: user1 : TTY=pts/0 ; COMMAND=/bin/cat /etc/shadow,linux-server-01,user1,
+ClamAV: FOUND Trojan in /tmp/payload.bin,linux-server-02,, 
+Port scan detected from 185.1.2.3 against 10.0.0.10,fw-gateway,,185.1.2.3
+Account locked after 5 failed logins for user4,ad-server-01,user4,
+

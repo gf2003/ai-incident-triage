@@ -1,0 +1,45 @@
+ai-incident-triage/
+|
+|_main.py
+|
+|_requirements.txt
+|
+|_Readme.md
+|
+|_samples/
+|   |
+|   |_labeled_trainning.csv
+|   |
+|   |_alerts.csv
+|
+|_data/
+|   |
+|   |_models/	
+|    
+|_triage/
+|   |
+|   |- __init__.py
+|   |
+|   |_ingest.py
+|   |
+|   |_model.py
+|   |
+|   |_recommend.py
+|   |
+|   |_utils.py
+|
+|_tickets/
+|   |
+|   |-__init__.py
+|   |
+|   |_db.py
+|   |
+|   |_manager.py
+|
+|_audit/
+    |
+    |-__init__.py
+    |
+    |-audit_logger.py
+    |
+    |_verify_audit.py		

@@ -1,0 +1,16 @@
+message,category,severity
+Failed password for root from 10.0.0.5 port 55221 ssh2,Authentication,High
+Failed password for invalid user admin from 10.0.0.5 port 55222 ssh2,Authentication,High
+Accepted password for user1 from 10.0.0.5 port 55230 ssh2,Authentication,Medium
+sudo: user1 : TTY=pts/0 ; COMMAND=/bin/cat /etc/shadow,Privilege,Critical
+sudo: user2 : TTY=pts/1 ; COMMAND=/usr/bin/apt install,Privilege,High
+ClamAV: FOUND Eicar-Test-Signature in /home/user/download.exe,Malware,Critical
+ClamAV: FOUND Trojan in /tmp/payload.bin,Malware,Critical
+UFW BLOCK IN=eth0 SRC=185.1.2.3 DST=10.0.0.10 PROTO=TCP DPT=22,Network,Medium
+Port scan detected from 185.1.2.3 against 10.0.0.10,Network,High
+VPN connection established from new country for user3,Network,High
+Account locked after 5 failed logins for user4,Authentication,Medium
+Multiple failed logins from same IP within 2 minutes,Authentication,High
+New user created: tempadmin,Privilege,High
+Scheduled task created to run powershell from temp folder,Malware,High
+

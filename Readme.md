@@ -1,10 +1,10 @@
 #AI Assisted Incident Triage
 
 ## Functions
-- Trains simple NLP classifiers (TF+IDF + Logistic Regression) to  predict incident category and severity
-- Ingest alerts from CSV
-- Auto-Creates incident tickets in SQLite
-- Writes tamper-evident audit logs (hash-chained) and provides verification
+- Trained simple NLP classifiers (TF+IDF + Logistic Regression) to  predict incident category and severity
+- Ingested alerts from CSV
+- Auto-Created incident tickets in SQLite
+- Wrote tamper-evident audit logs (hash-chained) and provides verification
 
 ## Run
 ```bash

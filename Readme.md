@@ -1,4 +1,4 @@
-##AI Assisted Incident Triage
+AI Assisted Incident Triage
 
 ## Functions
 - Trained simple NLP classifiers (TF+IDF + Logistic Regression) to  predict incident category and severity
